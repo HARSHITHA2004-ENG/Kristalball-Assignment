@@ -1,0 +1,61 @@
+/* Page background */
+.dashboard-page {
+  min-height: 100vh;
+  background: #f4f6f9;
+  padding: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main card */
+.dashboard-container {
+  max-width: 1100px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.dashboard-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #1f2937;
+}
+
+/* Grid layout */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Metric cards */
+.dashboard-card {
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 20px;
+  border-left: 5px solid #2563eb;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Card labels */
+.dashboard-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Card values */
+.dashboard-card h3 {
+  margin-top: 6px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+}
